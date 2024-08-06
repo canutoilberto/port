@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <MountainIcon className="h-6 w-6" />
-            <span className="text-lg font-medium">Uma</span>
+            <span className="text-lg font-medium">Neno&apos;s</span>
           </div>
           <nav className="flex gap-4">
             <Link

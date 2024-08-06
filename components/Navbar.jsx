@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="text-lg font-medium">Uma</span>
+          <span className="text-lg font-medium">Neno&apos;s</span>
         </Link>
         <Sheet>
           <SheetTrigger asChild>
