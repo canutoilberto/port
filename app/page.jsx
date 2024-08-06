@@ -1,4 +1,7 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -112,6 +115,41 @@ export default function Home() {
                 </Link>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+      <section id="contact" className="bg-muted py-12 md:py-24 lg:py-32">
+        <div className="container px-4 md:px-6 grid md:grid-cols-2 gap-8">
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Entre em Contato
+            </h2>
+            <p className="text-muted-foreground md:text-xl">
+              Preencha o formulário abaixo para entrar em contato.
+            </p>
+            <form className="space-y-4">
+              <Input type="text" placeholder="Nome" className="w-full" />
+              <Input type="email" placeholder="Email" className="w-full" />
+              <Textarea placeholder="Mensagem" className="w-full" rows={5} />
+              <Button type="submit" className="w-full">
+                Enviar
+              </Button>
+            </form>
+          </div>
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Pronto para começar?
+            </h2>
+            <p className="text-muted-foreground md:text-xl">
+              Vamos trabalhar juntos para criar algo incrível.
+            </p>
+            <Link
+              href="#"
+              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              prefetch={false}
+            >
+              Contrate-me
+            </Link>
           </div>
         </div>
       </section>
