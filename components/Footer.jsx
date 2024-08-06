@@ -41,7 +41,7 @@ const Footer = () => {
             </Link>
           </nav>
           <p className="text-xs text-muted-foreground">
-            &copy; 2024 Uma. Todos os direitos reservados.
+            &copy; 2024 Neno&apos;s. Todos os direitos reservados.
           </p>
         </div>
       </div>

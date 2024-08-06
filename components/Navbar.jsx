@@ -40,14 +40,14 @@ const Navbar = () => {
                 className="text-lg font-medium hover:underline underline-offset-4"
                 prefetch={false}
               >
-                Projects
+                Projetos
               </Link>
               <Link
                 href="#"
                 className="text-lg font-medium hover:underline underline-offset-4"
                 prefetch={false}
               >
-                Contact
+                Contatos
               </Link>
             </nav>
           </SheetContent>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 className="inline-flex h-9 items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
                 prefetch={false}
               >
-                Projects
+                Projetos
               </Link>
             </NavigationMenuLink>
             <NavigationMenuLink asChild>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 className="inline-flex h-9 items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
                 prefetch={false}
               >
-                Contact
+                Contatos
               </Link>
             </NavigationMenuLink>
           </NavigationMenuList>
